@@ -20,3 +20,4 @@ To add a new project, you have to edit the index.html file. Just paste this html
 ````
 - first of all change the main div class. You can put class name as 'website' for a website project, 'ml' for a machine learning project and 'project' for the rest of all projects.
 - after that, you can replace all the text according to your project details.
+- And when you use img div, then remember to edit index.css to set your img in project box according to your choice. For now, img class is not styled in the index.css file.
