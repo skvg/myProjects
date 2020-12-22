@@ -1,0 +1,120 @@
+.header div {
+    margin: auto;
+    text-align: center;
+}
+.header div h1 {
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: rgb(220, 237, 252);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.ml {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: rgb(231, 181, 243);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.website {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: rgb(253, 218, 243);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.type {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.title {
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.desc {
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+.links {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.links a {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border: 1px solid rgb(162, 179, 9);
+    background-color: rgb(237, 252, 151);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.related {
+    width: 100%;
+    margin-top: 50px;
+}
+.related div {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    height: 40px;
+}
+.related div a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.social {
+    width: 300px;
+    margin: auto;
+    padding-top: 60px;
+}
+.social a {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+.social a img {
+    width: 50px;
+}
+
+.copyright {
+    margin-top: auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width:550px){
+    .related div {
+        width: 31%;
+        padding-bottom: 10px;
+    }
+    .related div a {
+        font-size: 25px;
+    }
+}
