@@ -117,4 +117,10 @@
     .related div a {
         font-size: 25px;
     }
+    .social {
+        width: 200px;
+    }
+    .social a {
+        width: 23%;
+    }
 }
