@@ -27,7 +27,7 @@
     width: 80%;
     margin: auto;
     border: 1px solid #ddd;
-    background-color: rgb(253, 218, 243);
+    background-color: rgb(248, 230, 210);
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -61,7 +61,7 @@
     color: black;
     cursor: pointer;
     border: 1px solid rgb(162, 179, 9);
-    background-color: rgb(237, 252, 151);
+    background-color: rgb(237, 248, 175);
     border-radius: 10px;
     padding: 10px;
 }
@@ -78,7 +78,7 @@
     border: 1px solid #ddd;
     background-color: #eee;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     border-radius: 20px;
     height: 40px;
 }
@@ -110,6 +110,15 @@
 
 
 @media screen and (max-width:550px){
+    .project {
+        width: 95%;
+    }
+    .ml {
+        width: 95%;
+    }
+    .website {
+        width: 95%;
+    }
     .related div {
         width: 31%;
         padding-bottom: 10px;
